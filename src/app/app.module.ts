@@ -11,6 +11,7 @@ import { Cs1Page } from '../pages/cs1/cs1';
 import { CalculoPage } from '../pages/calculo/calculo';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
+import { RoboticaPage } from '../pages/robotica/robotica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ComPage } from '../pages/com/com';
     Cs1Page,
     CalculoPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    RoboticaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { ComPage } from '../pages/com/com';
     Cs1Page,
     CalculoPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    RoboticaPage
   ],
   providers: [
     StatusBar,
