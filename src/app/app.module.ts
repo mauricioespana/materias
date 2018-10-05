@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { Cs1Page } from '../pages/cs1/cs1';
 import { CalculoPage } from '../pages/calculo/calculo';
+import { DibujoPage } from '../pages/dibujo/dibujo';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CalculoPage } from '../pages/calculo/calculo';
     HomePage,
     HistoriaPage,
     Cs1Page,
-    CalculoPage
+    CalculoPage,
+    DibujoPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { CalculoPage } from '../pages/calculo/calculo';
     HomePage,
     HistoriaPage,
     Cs1Page,
-    CalculoPage
+    CalculoPage,
+    DibujoPage
   ],
   providers: [
     StatusBar,
