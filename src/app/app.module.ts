@@ -12,6 +12,7 @@ import { CalculoPage } from '../pages/calculo/calculo';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
 import { RoboticaPage } from '../pages/robotica/robotica';
+import { PappsPage } from '../pages/papps/papps';
 import { PyePage } from '../pages/pye/pye';
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PyePage } from '../pages/pye/pye';
     DibujoPage,
     ComPage,
     RoboticaPage,
-    PyePage
+    PyePage,
+    PappsPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { PyePage } from '../pages/pye/pye';
     DibujoPage,
     ComPage,
     RoboticaPage,
-    PyePage
+    PyePage,
+    PappsPage
   ],
   providers: [
     StatusBar,
