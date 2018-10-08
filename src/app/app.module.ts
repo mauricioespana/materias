@@ -14,6 +14,7 @@ import { ComPage } from '../pages/com/com';
 import { RoboticaPage } from '../pages/robotica/robotica';
 import { PappsPage } from '../pages/papps/papps';
 import { PyePage } from '../pages/pye/pye';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PyePage } from '../pages/pye/pye';
     ComPage,
     RoboticaPage,
     PyePage,
-    PappsPage
+    PappsPage,
+    MiPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { PyePage } from '../pages/pye/pye';
     ComPage,
     RoboticaPage,
     PyePage,
-    PappsPage
+    PappsPage,
+    MiPage
   ],
   providers: [
     StatusBar,
